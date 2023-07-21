@@ -1,0 +1,23 @@
+int main()
+{
+	int i,n,a[100],num,flag=0;
+	printf("Enter Limit:");
+	scanf("%d",&n);
+	printf("Enter n Numbers:");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("Enter number To search:");
+	scanf("%d",&num);
+	for(i=0;i<n;i++)
+	{
+		if(a[i]==num)
+		
+			printf("number is found");
+			break;
+	
+	}
+		if(i==num)
+		printf("Number is Not found:");
+}
